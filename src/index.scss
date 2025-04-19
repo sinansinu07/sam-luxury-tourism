@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  /* scroll-snap-type: y mandatory; */
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
+}
+
+section{
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+// color
+
+// Primary - Dark Gold
+
+// Hex Code : #c6a142
+// RGB : rgb(198,161,66)
+
+// Secondary - Medium Gold
+
+// Hex Code : #9a743c
+// RGB : rgb(154,116,60)
+
+// Tirnary
+
+// Hex Code : #f2d149
+// RGB : rgba(242,209,73)
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+
+a:hover {
+  color: #9a743c;
+  transition: .5s;
+}
+
+// button {
+//   position: relative;
+//   background: white;
+//   color: black;
+//   font-size: 16px;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   padding: 10px 30px;
+//   border-radius: 5px;
+//   border: 0;
+//   outline: 0;
+//   display: inline-flex;
+//   align-items: center;
+//   justify-content: center;
+//   border: 2px solid black;
+//   transition: 1s;
+//   overflow: hidden;
+//   z-index: 2;
+// }   
+
+// button:hover {
+//   color: white;
+//   border: 2px solid #c6a142;
+//   cursor: pointer;
+//   transition: 1s;
+// }
+
+// button::before {
+//   content: "";
+//   position: absolute;
+//   bottom: 0;
+//   left: 50%;
+//   height: 0%;
+//   width: 100%;
+//   background: #c6a142;
+//   color: #c6a142;
+//   transform: translate(-50%, 0);
+//   z-index: -1;
+//   transition: height 1s ease;
+// }
+
+// button:hover::before {
+//   height: 100%;
+//   bottom: 0;
+//   transition: 1s;
+// }  
+
+.btn {
+  background-image: linear-gradient(60deg, #d4af37 10%, #c6a142 50%, #9a743c 100%);
+  border: 0px solid #150485;
+  border-radius: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.25s ease;
+  width: 160px;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  .icon-div {
+    position: absolute;
+    right: 0px;
+    pointer-events: none;
+    z-index: 10;
+    background: inherit;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.25s ease;
+    font-size: 20px;
+  }
+
+  .text{
+    display: block;
+    position: absolute;
+    left: 20px;
+    transition: all 0.25s ease;
+  }
+}
+
+.btn:hover {
+  color: #333;
+}
+
+.container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.section-container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+@media (max-width: 2000px) {
+  .container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .section-container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .section-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .section-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .section-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

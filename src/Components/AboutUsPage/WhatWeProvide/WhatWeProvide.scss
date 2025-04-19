@@ -1,0 +1,192 @@
+.what-we-provide {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .head-section {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        .left {
+            width: 100%;
+
+            .heading-section {
+                // margin-top: 50px;
+        
+                .title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px 20px;
+                    background: rgb(198,161,66);
+                    border-radius: 10px;
+                    width: 200px;
+                    align-items: center;
+                    // width: auto;
+                    margin-right: auto;
+                    margin-left: auto;
+        
+                    h3 {
+                        font-size: 16px;
+                        color: white;
+                    }
+                }
+        
+                .sub-title {
+                    margin-top: 20px;
+        
+                    h1 {
+                        font-size: 40px;
+                    }
+                }
+    
+                p {
+                    max-width: 500px;
+                }
+            }
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .stats {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                padding-left: 30px;
+                padding-right: 30px;
+                gap: 20px;
+
+                .stat {
+                    display: flex;
+                    flex-direction: column;
+
+                    h1 {
+                        font-size: 40px;
+                        color: #c6a142;
+                    }
+                }
+            }
+        }
+    }
+
+    .services-grid {
+        // margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+
+        .service-card {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            gap: 30px;
+            // border-radius: 10px;
+            // background: white;
+            // box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            // margin-bottom: 10px;
+            // cursor: pointer;
+            // height: 100%;
+            // width: 100%;
+
+            // .icon {
+                // height: 100%;
+                // width: 100px;
+
+                img {
+                    height: 70px;
+                    width: 70px;
+                    // border-radius: 10px;
+                    // background-position: center;
+                    // object-fit: cover;
+                }
+            // }
+
+            .details {
+                height: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: left;
+                align-items: left;
+                text-align: left;
+
+                h1 {
+                    text-align: left;
+                    color: #c6a142;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1700px) {
+    .what-we-provide {
+        .services-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .what-we-provide {
+        .services-grid {
+            grid-template-columns: repeat(2, 1fr);
+
+            .service-card {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .what-we-provide {
+        .services-grid {
+            grid-template-columns: repeat(1, 1fr);
+
+            .service-card {
+                flex-direction: row;
+
+                .details {
+                    h1 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .what-we-provide {
+        .services-grid {
+            .service-card {
+                flex-direction: column;
+
+                .details {
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

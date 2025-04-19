@@ -1,0 +1,404 @@
+.inbound-contact-form {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    .heading-section {
+        // margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        .title {
+            display: flex;
+            padding: 10px 20px;
+            background: rgb(198,161,66);
+            border-radius: 10px;
+            width: 300px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            // width: auto;
+            margin-right: auto;
+            margin-left: auto;
+
+            h3 {
+                font-size: 16px;
+                color: white;
+            }
+        }
+
+        .sub-title {
+            margin-top: 30px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .tour-details-div {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        // margin-left: 100px;
+        // margin-right: 100px;
+        // border: 2px solid #c6a142;
+        // padding: 20px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        max-width: 1000px;
+        width: 100%;
+
+        .details {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+
+            svg {
+                font-size: 20px;
+                font-weight: 600;
+                color: #c6a142;
+            }
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+        // .details:hover {
+        //     color: #c6a142;
+        //     cursor: pointer;
+        // }
+    }
+
+    .form-container {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 1000px;
+        width: 100%;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+
+        .form-head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                font-size: 20px;
+            }
+            
+            .change-btn {
+                font-size: 14px;
+                font-weight: 600;
+                display: flex;
+                gap: 5px;
+                padding: 10px 15px;
+                background: rgb(198,161,66);
+                color: white;
+                border: 1px solid rgb(198,161,66);
+                border-radius: 10px;
+                width: 100px;
+                height: 40px;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                margin-left: auto;
+                transition: .3s;
+        
+                svg {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+
+            .change-btn:hover {
+                background: white;
+                color: rgb(198,161,66);
+                border: 1px solid rgb(198,161,66);
+                transition: .3s;
+            }
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: -10px;
+        }
+
+        .hotels.show {
+            display: none;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            width: 100%;
+            margin-top: -5px;
+        }
+
+        .sameline {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 100%;
+            align-items: center;
+            // justify-content: space-between;
+
+            .same-column {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 20px;
+                overflow: hidden;
+
+                .selected-activities {
+                    display: inline-flex; /* This will make the container shrink to fit the content */
+                    flex-wrap: wrap; /* Allows items to wrap to the next line */
+                    gap: 5px; /* Optional: Adds padding around the container */
+                    
+                    .activities {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 10px;
+                        font-size: 14px;
+                        padding: 5px 20px;
+                        background: #c6a142;
+                        color: white;
+                        border-radius: 10px;
+                        white-space: nowrap;
+
+                    svg {
+                        font-size: 20px;
+                        color: black;
+                        cursor: pointer;
+                    }
+
+                    } 
+
+                    .activities-head {
+                    font-weight: 600;
+                    }
+                }
+
+                label {
+                    width: 100%;
+                    font-weight: normal;
+                    margin-bottom: 0px;
+                    
+                }
+
+                .form-group {
+                    position: relative;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            label {
+                width: 100%;
+                font-weight: normal;
+                margin-bottom: 0px;
+                
+            }
+
+            .form-group {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .sameline.tour-hotel {
+            align-items: flex-start;
+        }
+
+        .sameline.flight {
+            width: 50%;
+            justify-content: flex-start;
+            padding-right: 10px;
+        } 
+
+        .sameline.checkbox {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            justify-content: flex-start !important;
+            width: auto;
+        }
+
+        .sameline.tour-hotel {
+            margin-bottom: -10px;
+        }
+        
+        .form-group {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: #fafafa;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #e4e4e4;
+            color: gray;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            
+        input, select, textarea {
+            flex: 1;
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            outline: none;
+            padding-right: 10px;
+            overflow: hidden;
+        }
+
+        .textarea {
+            padding-top: 15px;
+        }
+
+        // input[type="date"]::-webkit-calendar-picker-indicator {
+        //     display: none;
+        //     -webkit-appearance: none;
+        // }
+        
+        select {
+            // appearance: none; /* Hides default styling */
+            // -webkit-appearance: none; /* For Safari */
+            // -moz-appearance: none; /* For Firefox */
+            font-size: 14px;
+            background: none; /* Removes background */
+            cursor: pointer;
+        }
+        select::-webkit-calendar-picker-indicator,
+        select::-webkit-select {
+            filter: brightness(0) saturate(100%) invert(62%) sepia(69%) saturate(437%) hue-rotate(10deg) brightness(96%) contrast(92%);
+            cursor: pointer;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 80px;
+            resize: none;
+        }
+        
+            .icon {
+            font-size: 18px;
+            color: #c6a142;
+            }
+        }
+        
+        // Make the last textarea take full width
+        .form-group:last-child {
+            grid-column: span 2;
+        }
+
+        .form-group:hover {
+            // background: gray;
+            color: white;
+        }
+    }
+
+    .button-div {
+        // margin-top: 30px;
+        margin-left: auto;
+
+        .btn {
+            width: 180px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .inbound-contact-form {
+        .heading-section {
+            .sub-title {
+                h1 {
+                    font-size: 35px;
+                }
+            }
+        }
+
+        .tour-details-div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .inbound-contact-form {
+        .form-container {
+            .sameline {
+                flex-direction: column;
+            }
+
+            .sameline.tour-hotel {
+                .hotels.hide {
+                    display: none;
+                }
+            }
+
+            .hotels.show {
+                display: flex;
+            }
+
+            .sameline.mobile {
+                flex-direction: row;
+            }
+
+            .sameline.same-row {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .inbound-contact-form {
+        .heading-section {
+            .sub-title {
+                h1 {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .form-container {
+            gap: 20px;
+        }
+    }
+}

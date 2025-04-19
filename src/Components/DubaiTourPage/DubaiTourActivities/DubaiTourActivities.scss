@@ -1,0 +1,477 @@
+.dubai-tour-services {
+    // margin-top: 50px;
+    // margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .heading-section {
+        // margin-top: 50px;
+
+        .title {
+            display: block;
+            padding: 10px 20px;
+            background: rgb(198,161,66);
+            border-radius: 10px;
+            width: 200px;
+            align-items: center;
+            // width: auto;
+            margin-right: auto;
+            margin-left: auto;
+
+            h3 {
+                font-size: 16px;
+                color: white;
+            }
+        }
+
+        .sub-title {
+            margin-top: 30px;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .activities-filter-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 50px;
+
+        .filter-div {
+            display: flex;
+            flex-direction: row;
+            align-items: left;
+            gap: 30px;
+
+            .number-div {
+                display: flex;
+                flex-direction: row;
+                align-items: left;
+                gap: 10px;
+
+                p {
+                    font-weight: 600;
+                    font-weight: 16px;
+
+                    span {
+                        font-size: 18px;
+                    }
+                }
+
+                svg {
+                    color: #c6a142;
+                    font-size: 20px;
+                }
+            }
+            .category-filter-div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+
+                .select-div {
+                    padding: 6px 20px;
+                    background: white;
+                    color: #c6a142;
+                    border: 2px solid #c6a142;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: .3s;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+    
+                    select {
+                        appearance: none;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        background: transparent;
+                        font-size: 16px;
+                        outline: none;
+                        border: none;
+                        cursor: pointer;
+                        color: black;
+                    }
+    
+                    svg {
+                        font-size: 20px;
+                        color: black;
+                    }
+                }
+    
+                .select-div.active {
+                    background: #c6a142;
+                    color: white !important;
+                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                    transition: .3s;
+    
+                    select {
+                        color: white;
+                    }
+    
+                    svg {
+                        color: white;
+                    }
+                }
+    
+                .category-name {
+                    padding: 3px 20px;
+                    background: white;
+                    color: black;
+                    border: 2px solid #c6a142;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: .3s;
+                }
+    
+                button {
+                    padding: 6px 20px;
+                    background: white;
+                    color: black;
+                    border: 2px solid #c6a142;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: .3s;
+                }
+        
+                button:hover {
+                    background: #c6a142;
+                    color: white;
+                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                    transition: .3s;
+                }
+    
+                button.active, .category-name.active {
+                    background: #c6a142;
+                    color: white;
+                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                    transition: .3s;
+                }
+            }
+        }
+
+        .sort-div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+
+            p {
+                font-weight: 600;
+                font-weight: 16px;
+            }
+
+            .select-div {
+                padding: 6px 20px;
+                background: white;
+                color: #c6a142;
+                border: 2px solid #c6a142;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: .3s;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                select {
+                    appearance: none;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    background: transparent;
+                    font-size: 16px;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                svg {
+                    font-size: 20px;
+                    color: black;
+                }
+            }
+        }        
+    }
+
+    .services-section-grid {
+        padding-top: 20px !important;
+        padding: 5px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        overflow: hidden;
+        // width: 100%;
+        // height: 100%;
+
+        .services-grid-item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-items: space-between;
+            text-align: left;
+            // background: black;
+            // padding-bottom: 30px;
+            border-radius: 10px;
+            // gap: 30px;
+            position: relative;
+            overflow: hidden;
+            transition: background 0.5s ease-in-out;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1), /* Top shadow */
+            0px 4px 6px rgba(0, 0, 0, 0.1);  /* Bottom shadow */
+            // border:  2px solid white;
+            cursor: pointer;
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.1);
+                opacity: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 1.5rem;
+                transition: opacity .5s ease;
+                border-radius: 5px;
+                z-index: 1;
+                height: 100%;
+                transition: .5s ease-in-out;
+              }
+
+            .item-content {
+                // position: relative;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px;
+                // margin-top: 20px;
+
+                .item-name {
+                    font-size: 16px;
+                }
+
+                .item-price {
+                    font-weight: 700;
+                }
+
+                .item-icons {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    svg {
+                        font-size: 30px;
+                        color: black;
+                    }
+                }
+
+                .add-to-cart {
+                    position: absolute;
+                    right: 20px;
+                    bottom: 20px;
+                    background: white;
+                    color: black;
+                    // border: 2px solid White;
+                    padding: 10px;
+                    border-radius: 50%;
+                    // width: 50px;
+                    // height: 50px;
+                    display: flex;
+                    align-items: center;
+                    transition: .3s;
+                    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1), /* Top shadow */
+                    0px 4px 6px rgba(0, 0, 0, 0.1); 
+                    cursor: pointer;
+
+                    svg {
+                        font-size: 20px;
+                        transition: transform 0.5s ease;
+                    }
+                }
+
+                .add-to-cart:hover {
+                    background: #c6a142;
+                    color: white;
+                }
+            }
+
+            .item-image-div {
+                position: relative;
+                height: 200px;
+                width: 100%;
+                padding-top: 0px !important;
+                // padding: 20px;
+                overflow: hidden;
+                border-radius: 10px;
+
+                img {
+                    height: 200px;
+                    width: 100%;
+                    border-radius: 10px;
+                    object-fit: cover;
+                    transition: .5s ease-in-out;
+                }
+
+                .read-more {
+                    position: absolute;
+                    right: 20px;
+                    bottom: -20px;
+                    background: white;
+                    color: black;
+                    // border: 2px solid White;
+                    padding: 10px;
+                    border-radius: 50%;
+                    // width: 50px;
+                    // height: 50px;
+                    display: flex;
+                    align-items: center;
+                    transition: .3s;
+                    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1), /* Top shadow */
+                    0px 4px 6px rgba(0, 0, 0, 0.1); 
+                    cursor: pointer;
+
+                    svg {
+                        font-size: 20px;
+                        transition: transform 0.5s ease;
+                    }
+                }
+
+                .read-more:hover {
+                    background: #c6a142;
+                    color: white;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .services-grid-item:hover img {
+            transform: scale(1.2);
+            transition: .5s ease-in-out;
+        }
+
+        .services-grid-item:hover .add-to-cart {
+            // background: #c6a142;
+            color: #c6a142;
+        }
+
+        // .services-grid-item:hover .item-icons svg {
+        //     color: #c6a142;
+        // }
+
+        .no-activities-found {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            p {
+                text-align: center;
+                span {
+                    text-decoration: underline;
+                }
+
+                span:hover {
+                    color: #c6a142;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .dubai-tour-services {
+        .activities-filter-div {
+            padding: 0px 20px;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .dubai-tour-services {
+        .services-section-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .dubai-tour-services {
+        .activities-filter-div {
+            .filter-div {
+                flex-direction: column;
+            }
+        }
+
+        .services-section-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .dubai-tour-services {
+        .services-section-grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .dubai-tour-services.container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .dubai-tour-services {
+        padding-bottom: 0px;
+        .activities-filter-div {
+            .filter-div {
+                .category-filter-div {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .dubai-tour-services {
+        .activities-filter-div {
+            .sort-div {
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 10px;
+            }
+        }
+    }
+}

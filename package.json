@@ -1,0 +1,62 @@
+{
+  "name": "sam-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://samluxurytours.com",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "axios": "^1.8.3",
+    "cra-template": "1.2.0",
+    "framer-motion": "^12.4.3",
+    "gh": "^2.8.9",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "nodemailer": "^6.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.2.3",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "scss": "^0.2.4",
+    "swiper": "^11.2.2",
+    "yocto-queue": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "postcss-loader": "^8.1.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4"
+  }
+}
