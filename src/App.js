@@ -20,6 +20,7 @@ import PageNotFound from './Components/Common/PageNotFound/PageNotFound';
 import { startGetCustomer } from './Action/customerAction';
 import { sendOrderEmail } from './Services/emailService';
 import { generateInvoicePDF } from './Services/generateInvoicePDF';
+import 'react-datepicker/dist/react-datepicker.css';
 
 // New Commit
 

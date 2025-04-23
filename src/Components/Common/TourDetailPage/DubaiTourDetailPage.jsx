@@ -18,6 +18,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { startAddToCart } from "../../../Action/cartAction";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useAuth } from "../../../Context/AuthContext";
+import DatePicker from 'react-datepicker';
+import { format, parseISO } from "date-fns";
+
 
 // const tour = abudhabiTourActivities.find(ele => ele.id === 7);
 
@@ -25,6 +28,8 @@ export default function DubaiTourDetailPage() {
     const {activityName} = useParams()
     const dispatch = useDispatch()
     const { currencyValue, selectedCurrencySymbol } = useAuth()
+    const [itemInCart, setItemInCart] = useState("")
+
 
     const oldCart = useSelector(state => {
         return state.cart.data
@@ -44,7 +49,6 @@ export default function DubaiTourDetailPage() {
 
     console.log("New Cart", cart)
     
-
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top-left corner of the page
     }, []);
@@ -73,6 +77,10 @@ export default function DubaiTourDetailPage() {
     
             // Update the specific field of the item
             item[field] = value;
+
+            setItemInCart(cart.lineItems.find(
+                (item) => item.tourOption === currentTour?.tourOption[index]?.name
+            ))
     
             // Recalculate amount
             const transferOption = item.transferOption || {};
@@ -252,6 +260,10 @@ export default function DubaiTourDetailPage() {
                         {currentTour?.tourOption.map((tourOption, index) => {
                             const selectedTransfer = tourOption?.transferOption[0]; // Default to "Sharing Transfer"
                             const isChecked = cart?.lineItems?.some((item) => item?.tourOption === tourOption?.name);
+
+                            const currentCartItem = cart?.lineItems?.find(
+                                (item) => item?.tourOption === tourOption?.name
+                              );
                              return (
                                 <div key={tourOption.id} className="tour-price-row detail">
                                     <div className="coloumn coloumn-1">
@@ -314,11 +326,25 @@ export default function DubaiTourDetailPage() {
 
                                     <div className="coloumn coloumn-3">
                                         <div className="form-group">
-                                            <input 
+                                        <DatePicker
+                                            selected={
+                                            currentCartItem?.date ? parseISO(currentCartItem.date) : null
+                                            }
+                                            onChange={(date) => {
+                                            if (date) {
+                                                const formattedDate = format(date, "yyyy-MM-dd");
+                                                handleCartUpdate(index, "date", formattedDate);
+                                            }
+                                            }}
+                                            disabled={!isChecked}
+                                            placeholderText="Select tour date"
+                                            dateFormat="yyyy-MM-dd"
+                                        />
+                                            {/* <input 
                                                 disabled={!isChecked}
                                                 type="date" 
                                                 onChange={(e) => handleCartUpdate(index, "date", e.target.value)}
-                                            />
+                                            /> */}
                                             {/* <MdDateRange className="icon" /> */}
                                         </div>
                                     </div>

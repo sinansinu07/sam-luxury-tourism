@@ -65,16 +65,17 @@
     
                 .price-div {
                     font-size: 20px;
-                    font-weight: 600;
-                    display: flex;
+                    font-weight: 700;
                     padding: 10px 20px;
                     background: rgb(198,161,66);
                     color: white;
                     border-radius: 10px;
                     width: 200px;
                     height: 50px;
+                    display: flex;
                     justify-content: center;
                     align-items: center;
+                    text-align: center;
                     cursor: pointer;
     
                     svg {
@@ -586,6 +587,7 @@
                     }
 
                     .price-div {
+                        font-size: 18px;
                         width: 150px;
                     }
                 }
@@ -614,10 +616,10 @@
                         text-align: center;
                     }
 
-                    .price-div {
-                        margin-top: -10px;
-                        width: 150px;
-                    }
+                    // .price-div {
+                    //     margin-top: -10px;
+                    //     width: 200px;
+                    // }
                 }
             }
         }
