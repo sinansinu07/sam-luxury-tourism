@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 import { abudhabiTourActivities } from "../../../DataSets/abudhabiTourActivities";
+import ReactDOM from 'react-dom/client';
 
 import "./TourDetailPage.scss";
 import { MdAttachMoney, MdDateRange } from "react-icons/md";
@@ -28,7 +29,6 @@ export default function DubaiTourDetailPage() {
     const {activityName} = useParams()
     const dispatch = useDispatch()
     const { currencyValue, selectedCurrencySymbol } = useAuth()
-    const [itemInCart, setItemInCart] = useState("")
 
 
     const oldCart = useSelector(state => {
@@ -77,10 +77,6 @@ export default function DubaiTourDetailPage() {
     
             // Update the specific field of the item
             item[field] = value;
-
-            setItemInCart(cart.lineItems.find(
-                (item) => item.tourOption === currentTour?.tourOption[index]?.name
-            ))
     
             // Recalculate amount
             const transferOption = item.transferOption || {};
@@ -263,8 +259,8 @@ export default function DubaiTourDetailPage() {
 
                             const currentCartItem = cart?.lineItems?.find(
                                 (item) => item?.tourOption === tourOption?.name
-                              );
-                             return (
+                            );
+                            return (
                                 <div key={tourOption.id} className="tour-price-row detail">
                                     <div className="coloumn coloumn-1">
                                         <input 
@@ -326,20 +322,24 @@ export default function DubaiTourDetailPage() {
 
                                     <div className="coloumn coloumn-3">
                                         <div className="form-group">
-                                        <DatePicker
-                                            selected={
-                                            currentCartItem?.date ? parseISO(currentCartItem.date) : null
-                                            }
-                                            onChange={(date) => {
-                                            if (date) {
-                                                const formattedDate = format(date, "yyyy-MM-dd");
-                                                handleCartUpdate(index, "date", formattedDate);
-                                            }
-                                            }}
-                                            disabled={!isChecked}
-                                            placeholderText="Select tour date"
-                                            dateFormat="yyyy-MM-dd"
-                                        />
+                                            <DatePicker
+                                                selected={
+                                                currentCartItem?.date ? parseISO(currentCartItem.date) : null
+                                                }
+                                                onChange={(date) => {
+                                                if (date) {
+                                                    const formattedDate = format(date, "yyyy-MM-dd");
+                                                    handleCartUpdate(index, "date", formattedDate);
+                                                }
+                                                }}
+                                                disabled={!isChecked}
+                                                placeholderText="Select tour date"
+                                                dateFormat="yyyy-MM-dd"
+                                                className="tour-date"
+                                                popperPlacement="bottom-start"
+                                                popperClassName="custom-datepicker-popper"
+                                                portalId="tour-datepicker-portal"
+                                            />
                                             {/* <input 
                                                 disabled={!isChecked}
                                                 type="date" 
@@ -348,6 +348,7 @@ export default function DubaiTourDetailPage() {
                                             {/* <MdDateRange className="icon" /> */}
                                         </div>
                                     </div>
+                                    <div id="tour-datepicker-portal"></div>
                                     {(currentTour?.slug !== "yacht-rental-in-dubai" && currentTour?.slug !== "luxury-super-yacht-charter") && (
                                         <div className="coloumn coloumn-4">
                                             <div className="form-group">
@@ -407,6 +408,7 @@ export default function DubaiTourDetailPage() {
                             )
                         })}
                     </div>
+                    {/* <div id="datepicker-portal"></div> */}
                     <button className="add-to-cart" onClick={handleAddtoCart}>Add to Cart <FaCartArrowDown/></button>
                 </div>
 

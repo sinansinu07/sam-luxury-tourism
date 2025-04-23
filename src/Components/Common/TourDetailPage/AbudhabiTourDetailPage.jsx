@@ -16,6 +16,8 @@ import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useAuth } from "../../../Context/AuthContext";
+import DatePicker from 'react-datepicker';
+import { format, parseISO } from "date-fns";
 
 // const tour = abudhabiTourActivities.find(ele => ele.id === 7);
 
@@ -250,6 +252,10 @@ export default function DubaiTourDetailPage() {
                         {currentTour?.tourOption.map((tourOption, index) => {
                             const selectedTransfer = tourOption?.transferOption[0]; // Default to "Sharing Transfer"
                             const isChecked = cart?.lineItems?.some((item) => item?.tourOption === tourOption?.name);
+
+                            const currentCartItem = cart?.lineItems?.find(
+                                (item) => item?.tourOption === tourOption?.name
+                            );
                              return (
                                 <div key={tourOption.id} className="tour-price-row detail">
                                     <div className="coloumn coloumn-1">
@@ -312,11 +318,29 @@ export default function DubaiTourDetailPage() {
 
                                     <div className="coloumn coloumn-3">
                                         <div className="form-group">
-                                            <input 
+                                            <DatePicker
+                                                selected={
+                                                currentCartItem?.date ? parseISO(currentCartItem.date) : null
+                                                }
+                                                onChange={(date) => {
+                                                if (date) {
+                                                    const formattedDate = format(date, "yyyy-MM-dd");
+                                                    handleCartUpdate(index, "date", formattedDate);
+                                                }
+                                                }}
+                                                disabled={!isChecked}
+                                                placeholderText="Select tour date"
+                                                dateFormat="yyyy-MM-dd"
+                                                className="tour-date"
+                                                popperPlacement="bottom-start"
+                                                popperClassName="custom-datepicker-popper"
+                                                portalId="tour-datepicker-portal"
+                                            />
+                                            {/* <input 
                                                 disabled={!isChecked}
                                                 type="date" 
                                                 onChange={(e) => handleCartUpdate(index, "date", e.target.value)}
-                                            />
+                                            /> */}
                                             {/* <MdDateRange className="icon" /> */}
                                         </div>
                                     </div>

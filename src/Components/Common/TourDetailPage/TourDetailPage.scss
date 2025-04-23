@@ -210,6 +210,13 @@
                         outline: none;
                         cursor: pointer;
                     }
+
+                    .tour-date {
+                        width: 120px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
         
                     select::-webkit-calendar-picker-indicator,
                     select::-webkit-select {
@@ -641,3 +648,8 @@
         }
     }
 }
+
+.custom-datepicker-popper {
+    z-index: 9999 !important;
+}
+  

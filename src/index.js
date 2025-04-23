@@ -22,6 +22,7 @@ root.render(
       <Router>
         <Provider store={store}>
           <App />
+          <div id="datepicker-portal"></div>
         </Provider>
       </Router>
     </AuthProvider>
