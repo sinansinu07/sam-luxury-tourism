@@ -15,39 +15,39 @@ import icon6 from "../../../Assets/Services/6.png"
 const services = [
     {
         id: 1,
-        title: "TAILOR-MADE PACKAGES",
+        title: "Tailor-Made Travel Packages",
         icon: icon1,
-        description: "SAM Luxury Tourism stands out as a premier travel company, specializing in tailor-made travel packages across the UAE and beyond. Our experts design personalized itineraries to bring your dream journey to life.",
+        description: "SAM Luxury Tourism is a premier luxury travel company specializing in customized travel packages across the UAE and internationally. Our team of experts designs personalized itineraries to bring your dream luxury journey to life, offering unique experiences that match your interests and desires.",
     },
     {
         id: 2,
-        title: "DESERT SAFARI",
+        title: "Desert Safari",
         icon: icon2,
-        description: "Experience the ultimate blend of adventure and luxury with a Desert Safari by SAM Luxury Tourism. Indulge in authentic Arabian cuisine, captivating belly and tanoura dance performances, thrilling dune bashing, quad biking, star gazing, and more—all in one extraordinary journey.",
+        description: "Experience the perfect blend of adventure and luxury with a Desert Safari by SAM Luxury Tourism. Indulge in authentic Arabian cuisine, enjoy captivating belly and tanoura dance performances, and take part in thrilling dune bashing and quad biking. Don’t miss the opportunity for star gazing and more—this is a truly extraordinary journey through the heart of the desert.",
     },
     {
         id: 3,
-        title: "INTERNATIONAL VISA",
+        title: "International Visa Services",
         icon: icon3,
-        description: "SAM Luxury Tourism’s International VISA services are renowned for their fast processing across various nationalities and destinations. For a smooth, efficient, and hassle-free VISA experience, SAM Luxury Tourism is the ideal choice.",
+        description: "SAM Luxury Tourism offers reliable and fast international visa services, making the visa process seamless for various nationalities and destinations. With our efficient service, you can enjoy a hassle-free visa experience and focus on planning your next luxury trip.",
     },
     {
         id: 4,
-        title: "RENTAL YACHT",
+        title: "Luxury Yacht Rental",
         icon: icon4,
-        description: "Yachts represent the epitome of luxury that many dream of but few possess. SAM Luxury Tourism provides an extensive range of yachts to cater to all your desires. Whether it's for a party, gathering, business meeting, or a lavish day out with family, we have the perfect yacht for you.",
+        description: "Yachts symbolize the ultimate in luxury travel, and SAM Luxury Tourism provides an exclusive range of luxury yachts for your every need. Whether you're planning a party, business meeting, or a family getaway, our luxury yacht rentals offer a lavish experience on the water.",
     },
     {
         id: 5,
-        title: "LUXURY RENTAL CARS",
+        title: "Luxury Car Rentals",
         icon: icon5,
-        description: "A journey through the Emirates may leave you yearning for a luxurious drive in a top-tier rental car. Select your dream car—be it a Ferrari, Lamborghini, Rolls Royce, or Range Rover—and SAM Luxury Tourism will make it yours for an unforgettable adventure.",
+        description: "For those seeking an unforgettable driving experience, SAM Luxury Tourism offers luxury car rentals featuring top-tier vehicles like Ferrari, Lamborghini, Rolls Royce, and Range Rover. Embark on your luxury journey through the Emirates in style and comfort with our premium rental cars.",
     },
     {
         id: 6,
-        title: "MULTIPLE DESTINATIONS",
+        title: "Multiple Destinations",
         icon: icon6,
-        description: "SAM Luxury Tourism presents exclusive tours to a range of destinations both in the UAE and globally. Discover the wonders of Dubai, Abu Dhabi, and Sharjah, or indulge in international journeys to Baku, Azerbaijan, Georgia, Turkey, Maldives, Thailand, and Singapore through our customized travel packages.",
+        description: "SAM Luxury Tourism offers exclusive tours to both local UAE destinations and international hotspots. Discover the wonders of Dubai, Abu Dhabi, and Sharjah, or embark on customized travel packages to international destinations such as Baku, Azerbaijan, Georgia, Turkey, Maldives, Thailand, and Singapore. Our luxury tours are designed to provide an unforgettable experience at every stop.",
     },
 ]
 
@@ -60,7 +60,9 @@ export default function WhatWeProvide() {
                         <div className="heading-section">
                             <div className="title">
                                 <h3>What We Provide</h3>
+                                
                             </div>
+                            
                             {/* <div className="sub-title">
                                 <h1>Most Trusted Tours and<br/> Travel Company</h1>
                             </div> */}

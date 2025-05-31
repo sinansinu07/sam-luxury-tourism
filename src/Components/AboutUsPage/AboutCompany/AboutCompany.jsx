@@ -27,17 +27,21 @@ export default function AboutCompany() {
                         <div className="sub-title">
                             <h1>Experience Luxury, Explore the World with SAM</h1>
                         </div>
-                        <p>SAM Luxury Tourism is a prestigious Dubai-based luxury travel and tourism company dedicated to curating extraordinary travel experiences for discerning clients.
-                        With an unwavering commitment to excellence, personalized service, and an extensive network of partnerships, we strive to provide unparalleled luxury journeys that cater to the unique preferences and desires of our esteemed clientele.</p>
+                        <p>Experience Luxury Travel and Explore the World with SAM Luxury Tourism.
+                        SAM Luxury Tourism is a premier Dubai-based luxury travel company specializing in curating exceptional luxury travel experiences for discerning clients. Our dedicated team offers personalized luxury tourism services tailored to meet the unique preferences and desires of our clientele. With an unwavering commitment to excellence, attention to detail, and an extensive network of global partnerships, we strive to deliver unparalleled luxury journeys that create unforgettable memories.
+                        </p>
                     </div>
                     <div className="mission-vission">
                         <div className="mission">
-                            <h3><HiBadgeCheck/>Our Mission</h3>
-                            <p>At SAM Luxury Tourism, our mission is to deliver exceptional and immersive travel experiences that surpass the expectations of our clients. </p>
+                            <h3><HiBadgeCheck/>Our Mission:</h3>
+                            <p><strong>Luxury Travel Experiences Beyond Expectations</strong></p>
+                            <p>At SAM Luxury Tourism, our mission is to provide extraordinary travel experiences that exceed the expectations of our clients. From private city tours to desert safaris, we ensure each journey is immersive and tailored to offer the highest levels of luxury and comfort. </p>
                         </div>
                         <div className="vission">
-                            <h3><HiBadgeCheck/>Our Vission</h3>
-                            <p>Our vision at SAM Luxury Tourism is to offer extraordinary and memorable travel experiences that combine luxury, culture, and excellence.</p>
+                            <h3><HiBadgeCheck/>Our Vision:</h3>
+                            <p><strong>Combining Culture, Excellence, and Luxury</strong></p>
+                            <p>Our vision is to offer memorable travel experiences that seamlessly combine luxury, culture, and excellence. Whether you are seeking a luxury getaway or an adventure trip, SAM Luxury Tourism promises an exceptional and customized travel experience that leaves a lasting impression.
+                        </p>
                         </div>
                     </div>
                 </div>

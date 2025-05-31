@@ -24,24 +24,24 @@ export default function HomeHero() {
 
     const travelDestinations = [
         {
-          title: "Pick the best city for your Destination",
-          description: "Find the ideal city that matches your travel dreams, whether it's for adventure, relaxation, or exploration. Let your journey begin in the perfect destination!"
+          title: "Pick the Best City for Your Luxury Travel Destination",
+          description: "Find the ideal city for luxury travel that matches your dreams, whether it's for adventure, relaxation, or exploration. Let your journey begin in the perfect destination!"
         },
         {
-          title: "Discover the Perfect Getaway for Your Holiday",
-          description: "Escape to a destination that suits your holiday mood, from serene beaches to vibrant cities. Make unforgettable memories in your dream vacation spot!"
+          title: "Discover the Perfect Luxury Getaway for Your Holiday",
+          description: "Escape to a luxury travel destination that suits your holiday mood, from serene beaches to vibrant cities. Make unforgettable memories in your dream vacation spot!"
         },
         {
-          title: "Embark on the Ultimate Adventure Trip",
-          description: "Experience the thrill of adventure with breathtaking landscapes, adrenaline-filled activities, and unforgettable moments. Your next great journey starts here!"
+          title: "Embark on the Ultimate Luxury Adventure Trip",
+          description: "Experience the thrill of adventure travel with breathtaking landscapes, adrenaline-filled activities, and unforgettable moments. Your next great journey starts here!"
         },
         {
-          title: "Sail Away on an Unforgettable Cruise & Yacht Trip",
-          description: "Indulge in luxury and serenity as you cruise through stunning waters, exploring hidden gems and exotic locations. Let the ocean be your escape!"
+          title: "Sail Away on an Unforgettable Luxury Cruise & Yacht Trip",
+          description: "Indulge in luxury travel and serenity as you cruise through stunning waters, exploring hidden gems and exotic locations. Let the ocean be your ultimate escape!"
         },
         {
-          title: "Experience the Magic of a Desert Safari",
-          description: "Venture into the golden sands for a thrilling desert safari, where dune bashing, camel rides, and starry nights await. A journey like no other!"
+          title: "Experience the Magic of a Luxury Desert Safari",
+          description: "Venture into the golden sands for a luxury desert safari, where thrilling dune bashing, camel rides, and starry nights await. A journey like no other!"
         }
       ];
       

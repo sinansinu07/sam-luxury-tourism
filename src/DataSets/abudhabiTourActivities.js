@@ -230,25 +230,25 @@ export const abudhabiTourActivities = [
         overview: [
             {
                 id: 1,
-                description: "Experience Abu Dhabi's stunning skyline and landmarks from a unique vantage point with a helicopter tour."
+                description: "Experience the breathtaking beauty of Abu Dhabi from a unique perspective with an exhilarating helicopter tour. These aerial excursions provide unmatched views of the city’s iconic landmarks and stunning skyline."
             },
             {
                 id: 2,
-                description: "These aerial excursions offer unparalleled views of the city's iconic sites."
-            }
+                description: "Perfect for sightseeing enthusiasts, the Abu Dhabi Helicopter Tour offers an unforgettable experience, showcasing the city's most famous sites from above."
+            },
         ],
         hightlights: [
             {
                 id: 1,
-                description: "Scenic Tour (17 minutes): Fly over the Corniche, Marina Mall, Emirates Palace, Presidential Palace, Heritage Village, and the Sheikh Zayed Grand Mosque."
+                description: "Scenic Tour (17 minutes): Fly over Abu Dhabi's stunning landmarks, including the Corniche, Marina Mall, Emirates Palace, Presidential Palace, Heritage Village, and the majestic Sheikh Zayed Grand Mosque."
             },
             {
                 id: 2,
-                description: "Abu Dhabi Tour (30 minutes): Includes all Scenic Tour highlights, plus views of Al Hudayriat Island and Sheikh Zayed Sports City."
+                description: "Abu Dhabi Tour (30 minutes): Includes all the highlights of the Scenic Tour, plus Al Hudayriat Island and Sheikh Zayed Sports City."
             },
             {
                 id: 3,
-                description: "Grand Tour (45 minutes): An extended flight covering all previous highlights with additional coverage of the city's outskirts."
+                description: "Grand Tour (45 minutes): This extended flight offers all the previous highlights with additional coverage of the city's outskirts, providing a comprehensive aerial view of Abu Dhabi."
             }
         ],
         ImportantNotes: [
@@ -288,7 +288,7 @@ export const abudhabiTourActivities = [
             },
             {
                 id: 2,
-                description: "Safety equipment and training provided on-site."
+                description: "Safety equipment and safety training provided on-site."
             }
         ],
         exclusion: [
@@ -319,26 +319,26 @@ export const abudhabiTourActivities = [
                 description: "No refunds will be provided for partially used services."
             }
         ],
-        about: [
-            {
-                id: 1,
-                description: "The Abu Dhabi Helicopter Tour offers a thrilling aerial experience over the city's most famous landmarks."
-            },
-            {
-                id: 2,
-                description: "Perfect for sightseeing enthusiasts looking for a unique view of Abu Dhabi’s skyline."
-            }
-        ],
+        // about: [
+        //     {
+        //         id: 1,
+        //         description: "The Abu Dhabi Helicopter Tour offers a thrilling aerial experience over the city's most famous landmarks."
+        //     },
+        //     {
+        //         id: 2,
+        //         description: "Perfect for sightseeing enthusiasts looking for a unique view of Abu Dhabi’s skyline."
+        //     }
+        // ],
         keyPoint: [
             {
                 id: 1,
-                title: "Unmatched Views",
-                description: "Enjoy breathtaking aerial views of Abu Dhabi’s most famous sites from the sky."
+                title: "Unmatched Views:",
+                description: "Enjoy stunning aerial views of Abu Dhabi’s most iconic landmarks and skyline."
             },
             {
                 id: 2,
-                title: "Flexible Tour Options",
-                description: "Choose from 17, 30, or 45-minute flights to suit your preferences."
+                title: "Flexible Tour Options:",
+                description: "Choose from 17-minute, 30-minute, or 45-minute flights to suit your preferences and time."
             }
         ]
     },
