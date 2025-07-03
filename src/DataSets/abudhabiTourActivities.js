@@ -36,105 +36,105 @@ import themePark4 from "../Assets/Tour/Dubai/DubaiActivities/Ferrari-World-theme
 export const abudhabiTourCategory = [
     {
         id: 1,
-        name: "Dessert Safari Abudhabi",
-        city: "Abudhabi",
-        description: "Abudhabi's desert safari offers dune bashing, camel rides, cultural shows, and a BBQ dinner under the stars for an unforgettable adventure.",
+        name: "Desert Safari Abu Dhabi",
+        city: "Abu Dhabi",
+        description: "Experience thrilling dune bashing, camel rides, and BBQ under stars with SAM Tour and Travel’s luxury Desert Safari Abu Dhabi.",
         isFeatured: false,
         image: image4
     },
     {
         id: 2,
-        name: "City Tour Abudhabi",
+        name: "City Tour Abu Dhabi",
         city: "Abudhabi",
-        description: "A Abudhabi City Tour explores iconic landmarks like Burj Khalifa, Abudhabi Marina, Palm Jumeirah, and Abudhabi Creek, offering a blend of modern marvels and cultural heritage.",
+        description: "Discover Abu Dhabi's landmarks with SAM Tour and Travel’s private city tour, blending culture and luxury in every stop.",
         isFeatured: true,
         image: image1
     },
     {
         id: 3,
-        name: "Dhow Cruise Abudhabi",
+        name: "Dhow Cruise Abu Dhabi",
         city: "Abudhabi",
-        description: "A Dhow Cruise in Abudhabi offers a scenic ride with stunning skyline views, buffet dining, and live entertainment along Abudhabi Marina or Abudhabi Creek.",
+        description: "Enjoy stunning views, dining, and entertainment aboard a traditional dhow with SAM Tour and Travel’s Dhow Cruise Abu Dhabi experience.",
         isFeatured: false,
         image: image2
     },
     {
         id: 4,
-        name: "Water Activities Abudhabi",
+        name: "Water Activities Abu Dhabi",
         city: "Abudhabi",
-        description: "Abudhabi offers jet skiing, parasailing, flyboarding, scuba diving, and yacht cruises for thrilling water adventures.",
+        description: "SAM Tour and Travel offers jet skiing, parasailing, and scuba diving in Abu Dhabi for an unforgettable luxury water adventure.",
         isFeatured: false,
         image: image5
     },
     {
         id: 5,
-        name: "Airport Transfer Abudhabi",
+        name: "Airport Transfer Abu Dhabi",
         city: "Abudhabi",
-        description: "Airport transfer services in Abudhabi offer convenient, comfortable transportation to and from the airport, ensuring a smooth arrival or departure.",
+        description: "Book luxury airport transfer in Abu Dhabi with SAM Tour and Travel for seamless, stylish, and comfortable travel convenience.",
         isFeatured: false,
         image: image11
     },
     {
         id: 6,
-        name: "Water Parks Abudhabi",
+        name: "Water Parks Abu Dhabi",
         city: "Abudhabi",
-        description: "Abudhabi's water parks, like Aquaventure and Wild Wadi, offer thrilling slides, lazy rivers, and wave pools, providing fun for all ages.",
+        description: "Enjoy VIP access to Abu Dhabi’s top water parks with SAM Tour and Travel’s luxury family water park experiences.",
         isFeatured: false,
         image: image14
     },
     {
         id: 7,
-        name: "Theme Parks Abudhabi",
+        name: "Theme Parks Abu Dhabi",
         city: "Abudhabi",
-        description: "Abudhabi's theme parks offer thrilling rides, water adventures, and family fun at IMG Worlds, Motiongate, and Aquaventure.",
+        description: "Explore IMG Worlds, Motiongate, and more with SAM Tour and Travel’s luxury theme park tours in Abu Dhabi.",
         isFeatured: true,
         image: image3
     },
     {
         id: 8,
-        name: "Culture and Attraction Abudhabi",
+        name: "Culture and Attraction Abu Dhabi",
         city: "Abudhabi",
-        description: "Abu Dhabi's culture and attractions mix modern landmarks with rich heritage, featuring souks, museums, and cultural districts like Al Fahidi.",
+        description: "Explore museums, souks, and cultural landmarks with SAM Tour and Travel’s heritage-rich tours across Abu Dhabi’s cultural attractions.",
         isFeatured: false,
         image: image15
     },
     {
         id: 9,
-        name: "Hop on Hop off Bus Abudhabi",
+        name: "Hop on Hop off Bus Abu Dhabi",
         city: "Abudhabi",
-        description: "The Hop-on Hop-off Bus in Abu Dhabi offers flexible city exploration with stops at top landmarks like Abu Dhabi Marina.",
+        description: "Discover Abu Dhabi at your pace with SAM Tour and Travel’s luxury hop-on hop-off bus service to top city spots.",
         isFeatured: false,
         image: image16
     },
     {
         id: 10,
-        name: "Car Transfers Abudhabi",
+        name: "Car Transfers Abu Dhabi",
         city: "Abudhabi",
-        description: "Car transfer services in Abudhabi provide convenient, private transportation to and from destinations, offering comfort and flexibility for travelers.",
+        description: "SAM Tour and Travel offers luxury private car transfers in Abu Dhabi for stylish, flexible, and reliable transportation services.",
         isFeatured: false,
         image: image17
     },
     {
         id: 11,
-        name: "Adventure Tours Abudhabi",
+        name: "Adventure Tours Abu Dhabi",
         city: "Abudhabi",
-        description: "Adventure tours in Abudhabi offer thrilling experiences like dune bashing, skydiving, and zip-lining, perfect for adrenaline seekers.",
+        description: "Experience skydiving, dune bashing, and zip-lining with SAM Tour and Travel’s luxury adventure tours in Abu Dhabi’s desert.",
         isFeatured: false,
         image: image19
     },
     {
         id: 12,
-        name: "Wildlife Zoo and Aquarium Abudhabi",
+        name: "Wildlife Zoo and Aquarium Abu Dhabi",
         city: "Abudhabi",
-        description: "Abudhabi's nature and wildlife experiences feature desert safaris, wildlife reserves, and attractions like Abudhabi Safari Park.",
+        description: "Explore wildlife parks and marine attractions with SAM Tour and Travel’s eco-friendly luxury tours in Abu Dhabi.",
         isFeatured: false,
         image: image18
     },
     {
         id: 13,
-        name: "Restaurent and Meals Abudhabi",
+        name: "Restaurant and Meals Abu Dhabi",
         city: "Abudhabi",
-        description: "Abudhabi offers a diverse dining scene, from luxury restaurants and international cuisines to street food and traditional Emirati meals.",
+        description: "Enjoy fine dining and traditional cuisine with SAM Tour and Travel’s curated luxury restaurant experiences in Abu Dhabi.",
         isFeatured: false,
         image: image25
     },

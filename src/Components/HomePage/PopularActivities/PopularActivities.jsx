@@ -68,7 +68,10 @@ export default function PopularActivities() {
                                         {/* <div className="overlay"></div> */}
                                         <div className="item-image-div">
                                             {/* <div className="read-more"><LuMoveRight /></div> */}
-                                            <img src={service?.image} alt={service?.title} />
+                                            <img 
+                                            src={service?.image} 
+                                            alt={service?.name || service?.title || "SAM Luxury TourismPopular activity image"} 
+                                            />
                                         </div>
                                         <div className="item-content">
                                             <h1 className="item-name">{service?.name}</h1>

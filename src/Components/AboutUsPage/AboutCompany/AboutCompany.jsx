@@ -25,10 +25,9 @@ export default function AboutCompany() {
                             <h3>About Company</h3>
                         </div>
                         <div className="sub-title">
-                            <h1>Experience Luxury, Explore the World with SAM</h1>
+                            <h1>Experience Luxury Travel and Explore the World with SAM Luxury Tourism</h1>
                         </div>
-                        <p>Experience Luxury Travel and Explore the World with SAM Luxury Tourism.
-                        SAM Luxury Tourism is a premier Dubai-based luxury travel company specializing in curating exceptional luxury travel experiences for discerning clients. Our dedicated team offers personalized luxury tourism services tailored to meet the unique preferences and desires of our clientele. With an unwavering commitment to excellence, attention to detail, and an extensive network of global partnerships, we strive to deliver unparalleled luxury journeys that create unforgettable memories.
+                        <p>SAM Luxury Tourism is a premier Dubai-based luxury travel company specializing in curating exceptional luxury travel experiences for discerning clients. Our dedicated team offers personalized luxury tourism services tailored to meet the unique preferences and desires of our clientele. With an unwavering commitment to excellence, attention to detail, and an extensive network of global partnerships, we strive to deliver unparalleled luxury journeys that create unforgettable memories.
                         </p>
                     </div>
                     <div className="mission-vission">

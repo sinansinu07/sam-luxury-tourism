@@ -63,9 +63,9 @@ export default function WhatWeProvide() {
                                 
                             </div>
                             
-                            {/* <div className="sub-title">
-                                <h1>Most Trusted Tours and<br/> Travel Company</h1>
-                            </div> */}
+                            <div className="sub-title">
+                                <h3>Luxury Travel Services Tailored to You</h3>
+                            </div>
                         </div>
                     </div>
                 </div>

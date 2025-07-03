@@ -158,7 +158,7 @@ export const dubaiTourCategory = [
         id: 1,
         name: "City Tour Dubai",
         city: "Dubai",
-        description: "A Dubai City Tour explores iconic landmarks like Burj Khalifa, Dubai Marina, Palm Jumeirah, and Dubai Creek, offering a blend of modern marvels and cultural heritage.",
+        description: "Explore Burj Khalifa, Marina, Palm Jumeirah, and Creek with a private, luxury city tour experience.",
         isFeatured: true,
         image: image1
     },
@@ -166,7 +166,7 @@ export const dubaiTourCategory = [
         id: 2,
         name: "Dhow Cruise Dubai",
         city: "Dubai",
-        description: "A Dhow Cruise in Dubai offers a scenic ride with stunning skyline views, buffet dining, and live entertainment along Dubai Marina or Dubai Creek.",
+        description: "Enjoy skyline views, buffet dining, and live shows aboard a luxury dhow cruise in Dubai Marina or Creek.",
         isFeatured: true,
         image: image2
     },
@@ -174,7 +174,7 @@ export const dubaiTourCategory = [
         id: 3,
         name: "Theme Parks Dubai",
         city: "Dubai",
-        description: "Dubai's theme parks offer thrilling rides, water adventures, and family fun at IMG Worlds, Motiongate, and Aquaventure.",
+        description: "Experience thrilling rides and family fun at IMG Worlds, Motiongate, and Aquaventure in Dubai’s top theme parks.",
         isFeatured: true,
         image: image3
     },
@@ -182,7 +182,7 @@ export const dubaiTourCategory = [
         id: 4,
         name: "Desert Safari Tours Dubai",
         city: "Dubai",
-        description: "Dubai's desert safari offers dune bashing, camel rides, cultural shows, and a BBQ dinner under the stars for an unforgettable adventure.",
+        description: "Enjoy dune bashing, camel rides, and BBQ dinners with a premium desert safari experience in Dubai.",
         isFeatured: true,
         image: image4
     },
@@ -190,7 +190,7 @@ export const dubaiTourCategory = [
         id: 5,
         name: "Water Activities Dubai",
         city: "Dubai",
-        description: "Dubai offers jet skiing, parasailing, flyboarding, scuba diving, and yacht cruises for thrilling water adventures.",
+        description: "Jet ski, parasail, scuba dive, and cruise — thrilling luxury water adventures across Dubai’s stunning coastline.",
         isFeatured: false,
         image: image5
     },
@@ -198,7 +198,7 @@ export const dubaiTourCategory = [
         id: 6,
         name: "Limousine Tours Dubai",
         city: "Dubai",
-        description: "Limousine tours in Dubai offer a luxurious way to explore the city's iconic landmarks and attractions in style and comfort.",
+        description: "Tour Dubai in style with private limousine service, visiting top landmarks in comfort and luxury.",
         isFeatured: false,
         image: image6
     },
@@ -206,7 +206,7 @@ export const dubaiTourCategory = [
         id: 7,
         name: "Burj Al Arab Tours Dubai",
         city: "Dubai",
-        description: "Burj Al Arab tours in Dubai provide an exclusive experience to explore the world-renowned luxury hotel, offering breathtaking views and exceptional service.",
+        description: "Get exclusive access inside Burj Al Arab with private tours of this iconic luxury hotel in Dubai, showcasing its opulence and stunning architecture.",
         isFeatured: false,
         image: image7
     },
@@ -214,7 +214,7 @@ export const dubaiTourCategory = [
         id: 8,
         name: "Helicopter Tours Dubai",
         city: "Dubai",
-        description: "Helicopter tours in Dubai offer stunning aerial views of iconic landmarks like the Burj Khalifa and Palm Jumeirah.",
+        description: "See Dubai from above with a luxury helicopter tour over Burj Khalifa, Palm Jumeirah, and more.",
         isFeatured: false,
         image: image8
     },
@@ -222,7 +222,7 @@ export const dubaiTourCategory = [
         id: 9,
         name: "Atlantis Hotel Tours Dubai",
         city: "Dubai",
-        description: "Atlantis Hotel tours in Dubai showcase the resort's luxury, including attractions like Aquaventure Waterpark and The Lost Chambers Aquarium.",
+        description: "Explore Atlantis Dubai’s Aquaventure and aquarium with premium guided access and luxury experiences.",
         isFeatured: false,
         image: image9
     },
@@ -230,7 +230,7 @@ export const dubaiTourCategory = [
         id: 10,
         name: "Burj Khalifa Tickets",
         city: "Dubai",
-        description: "Burj Khalifa tickets in Dubai provide access to the observation decks, offering breathtaking views of the city from one of the world's tallest buildings.",
+        description: "Skip the lines and enjoy VIP access to Burj Khalifa’s observation decks with stunning city views.",
         isFeatured: false,
         image: image10
     },
@@ -238,7 +238,7 @@ export const dubaiTourCategory = [
         id: 11,
         name: "Airport Transfer Dubai",
         city: "Dubai",
-        description: "Airport transfer services in Dubai offer convenient, comfortable transportation to and from the airport, ensuring a smooth arrival or departure.",
+        description: "Travel in comfort with luxury airport transfers, including private cars, chauffeurs, and VIP transportation services in Dubai.",
         isFeatured: false,
         image: image11
     },
@@ -246,7 +246,7 @@ export const dubaiTourCategory = [
         id: 12,
         name: "Hot Air Ballon Dubai",
         city: "Dubai",
-        description: "Hot air balloon rides in Dubai provide a unique, scenic view of the desert landscape at sunrise, offering a peaceful and breathtaking experience.",
+        description: "Soar above the desert at sunrise with a peaceful, premium hot air balloon ride in Dubai. Experience breathtaking views and a unique perspective of the city’s skyline and desert landscape.",
         isFeatured: false,
         image: image12
     },
@@ -254,7 +254,7 @@ export const dubaiTourCategory = [
         id: 13,
         name: "Camel and Horse Riding Dubai",
         city: "Dubai",
-        description: "Camel and horse riding in Dubai offers an authentic desert experience, allowing visitors to explore the vast dunes or enjoy scenic trails on horseback or camelback.",
+        description: "Enjoy scenic desert trails with private camel or horse rides, perfect for a tranquil luxury adventure.",
         isFeatured: false,
         image: image13
     },
@@ -262,7 +262,7 @@ export const dubaiTourCategory = [
         id: 14,
         name: "Water Parks Dubai",
         city: "Dubai",
-        description: "Dubai's water parks, like Aquaventure and Wild Wadi, offer thrilling slides, lazy rivers, and wave pools, providing fun for all ages.",
+        description: "Splash into fun at Dubai’s best water parks, with VIP access to thrilling slides and family-friendly zones.",
         isFeatured: true,
         image: image14
     },
@@ -270,7 +270,7 @@ export const dubaiTourCategory = [
         id: 15,
         name: "Culture and Attraction Dubai",
         city: "Dubai",
-        description: "Dubai's culture and attractions blend modern marvels with rich heritage, featuring iconic landmarks like the Burj Khalifa, traditional souks, museums, and cultural districts like Al Fahidi.",
+        description: "Discover Dubai’s heritage and landmarks like Al Fahidi, souks, and Burj Khalifa on cultural luxury tours.",
         isFeatured: false,
         image: image15
     },
@@ -278,7 +278,7 @@ export const dubaiTourCategory = [
         id: 16,
         name: "Hop on Hop off Bus Dubai",
         city: "Dubai",
-        description: "The Hop on Hop off Bus in Dubai offers a flexible way to explore the city's top attractions, with multiple routes and stops at landmarks like the Burj Khalifa and Dubai Marina.",
+        description: "Explore top attractions flexibly with the luxury Hop-On Hop-Off Bus Tour across Dubai’s iconic landmarks.",
         isFeatured: false,
         image: image16
     },
@@ -286,7 +286,7 @@ export const dubaiTourCategory = [
         id: 17,
         name: "Car Transfers Dubai",
         city: "Dubai",
-        description: "Car transfer services in Dubai provide convenient, private transportation to and from destinations, offering comfort and flexibility for travelers.",
+        description: "Book luxury car transfers in Dubai for private, flexible, and convenient travel around the city.",
         isFeatured: false,
         image: image17
     },
@@ -294,7 +294,7 @@ export const dubaiTourCategory = [
         id: 18,
         name: "Nature and Wildlife Dubai",
         city: "Dubai",
-        description: "Dubai's nature and wildlife experiences feature desert safaris, wildlife reserves, and attractions like Dubai Safari Park.",
+        description: "Explore Dubai Safari Park and desert wildlife with exclusive, guided nature and eco-tourism experiences.",
         isFeatured: false,
         image: image18
     },
@@ -302,7 +302,7 @@ export const dubaiTourCategory = [
         id: 19,
         name: "Adventure Tours Dubai",
         city: "Dubai",
-        description: "Adventure tours in Dubai offer thrilling experiences like dune bashing, skydiving, and zip-lining, perfect for adrenaline seekers.",
+        description: "Experience thrilling luxury adventures in Dubai, including dune bashing, skydiving, and zip-lining.",
         isFeatured: false,
         image: image19
     },
@@ -310,7 +310,7 @@ export const dubaiTourCategory = [
         id: 20,
         name: "Yacht charters Dubai",
         city: "Dubai",
-        description: "Yacht charters in Dubai provide a luxurious sailing experience with stunning views of the skyline, Palm Jumeirah, and the Arabian Gulf.",
+        description: "Sail Dubai’s coast with a private luxury yacht charter, offering stunning views and premium onboard services.",
         isFeatured: false,
         image: image20
     },
@@ -318,7 +318,7 @@ export const dubaiTourCategory = [
         id: 21,
         name: "Sightseeing Tours Dubai",
         city: "Dubai",
-        description: "Sightseeing tours in Dubai offer guided experiences to iconic landmarks like the Burj Khalifa, Palm Jumeirah, and Dubai Marina.",
+        description: "Discover Dubai’s iconic sites with guided, premium sightseeing tours tailored for comfort and exclusivity.",
         isFeatured: false,
         image: image21
     },
@@ -326,7 +326,7 @@ export const dubaiTourCategory = [
         id: 22,
         name: "Premium Tours Dubai",
         city: "Dubai",
-        description: "Premium tours in Dubai offer exclusive experiences with luxury transportation, VIP access, and personalized itineraries to top attractions.",
+        description: "Enjoy luxury Dubai tours with VIP access, private transportation, and personalized itineraries for an exclusive experience.",
         isFeatured: false,
         image: image22
     },
@@ -334,7 +334,7 @@ export const dubaiTourCategory = [
         id: 23,
         name: "Fun and Games Dubai",
         city: "Dubai",
-        description: "Dubai offers a variety of fun and games, including theme parks, escape rooms, virtual reality experiences, and indoor adventure zones for all ages.",
+        description: "Experience indoor adventures, escape rooms, and VR zones with exclusive VIP access to Dubai’s top fun spots.",
         isFeatured: false,
         image: image23
     },
@@ -342,15 +342,15 @@ export const dubaiTourCategory = [
         id: 24,
         name: "Event and Occasions Dubai",
         city: "Dubai",
-        description: "Dubai hosts a wide range of events and occasions, from luxury weddings and corporate gatherings to festivals, concerts, and cultural celebrations.",
+        description: "Plan luxury events in Dubai, from weddings to corporate gatherings, with custom services and top-tier venues.",
         isFeatured: false,
         image: image24
     },
     {
         id: 25,
-        name: "Restaurent and Meals Dubai",
+        name: "Restaurant and Meals Dubai",
         city: "Dubai",
-        description: "Dubai offers a diverse dining scene, from luxury restaurants and international cuisines to street food and traditional Emirati meals.",
+        description: "Dine in Dubai’s luxury restaurants offering gourmet meals, international cuisines, and exclusive culinary experiences.",
         isFeatured: false,
         image: image25
     },

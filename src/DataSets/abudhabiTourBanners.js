@@ -9,7 +9,7 @@ export const abuDhabiTourBanners = [
         id: 1,
         name: "National Aquarium ",
         title: "The National Aquarium Abu Dhabi - A Marine Wonderland",
-        description: "Dive into an underwater adventure at the largest aquarium in the Middle East. Explore over 46,000 marine creatures and witness breathtaking aquatic exhibits.",
+        description: "Dive into an underwater adventure at the largest aquarium in the Middle East. Explore over 46,000 marine creatures and witness breathtaking aquatic exhibits, offering a luxury wildlife experience and a unique VIP tour of Abu Dhabi’s marine life.",
         image: image1
     },
     {
@@ -23,21 +23,21 @@ export const abuDhabiTourBanners = [
         id: 3,
         name: "Desert Safari Abu Dhabi",
         title: "Desert Safari Abu Dhabi - A Journey into the Sands",
-        description: "Embark on an exhilarating desert safari with dune bashing, camel rides, and traditional Bedouin hospitality. Enjoy a magical evening under the Arabian sky.",
+        description: "Embark on an exhilarating desert safari with dune bashing, camel rides, and traditional Bedouin hospitality. Enjoy a luxury desert experience under the Arabian sky, perfect for VIP adventure tours.",
         image: image3
     },
     {
         id: 4,
         name: "Louvre Abu Dhabi",
         title: "Louvre Abu Dhabi - Where Art Meets Culture",
-        description: "Step into a world of artistic brilliance at the Louvre Abu Dhabi. Discover a stunning collection of art and artifacts from across the globe, housed in a breathtaking architectural marvel.",
+        description: "Step into a world of artistic brilliance at the Louvre Abu Dhabi. Explore a stunning collection of art and artifacts in this luxury cultural experience, housed in a breathtaking architectural marvel.",
         image: image4
     },
     {
         id: 5,
         name: "Qasr Al Watan",
         title: "Qasr Al Watan - The Majestic Presidential Palace",
-        description: "Explore the grandeur of Qasr Al Watan, a symbol of knowledge, culture, and governance. Walk through its regal halls and witness the heritage of the UAE.",
+        description: "Explore the grandeur of Qasr Al Watan, a symbol of knowledge, culture, and governance. Walk through its regal halls for a luxury cultural experience and witness the heritage of the UAE.",
         image: image5
     }
 ];
