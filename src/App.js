@@ -21,6 +21,9 @@ import { startGetCustomer } from './Action/customerAction';
 import { sendOrderEmail } from './Services/emailService';
 import { generateInvoicePDF } from './Services/generateInvoicePDF';
 import 'react-datepicker/dist/react-datepicker.css';
+import { BlogProvider } from './Context/BlogContext';
+import SingleBlog from './Pages/SingleBlog';
+import BlogListPage from './Pages/BlogList';
 
 // New Commit
 
@@ -83,12 +86,14 @@ window.onload = () => {
 
   return (
     <Fragment>
-      <Headers/>
+      <Headers/> 
       <Routes>
           {/* English Routes */}
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
           <Route path="/contact-us" element={<ContactUsPage />} />
+          <Route path="/blogs" element={<BlogListPage />} />
+          <Route path="/blog/:slug" element={<SingleBlog />} />
           <Route path="/tour-dubai" element={<DubaiTourPage />} />
           <Route path="/tour-abudhabi" element={<AbudhabiTourPage />} />
           <Route path="/destination-inbound" element={<InBoundDestinationPage />} />
