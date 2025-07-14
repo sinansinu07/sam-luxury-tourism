@@ -6,6 +6,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import configureStore from './Store/configureStore';
 import { AuthProvider } from './Context/AuthContext';
+import { Helmet } from 'react-helmet';
+import { HelmetProvider } from 'react-helmet-async';
 
 const store = configureStore()
 
@@ -20,8 +22,10 @@ root.render(
   <React.StrictMode>
     <AuthProvider>
       <Router>
-        <Provider store={store}>
-          <App />
+        <Provider store={store}> 
+          <HelmetProvider>
+            <App />
+          </HelmetProvider>
           <div id="datepicker-portal"></div>
         </Provider>
       </Router>

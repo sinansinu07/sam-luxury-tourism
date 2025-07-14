@@ -335,6 +335,7 @@ export default function Headers() {
                                 )}
                             </AnimatePresence>
                         </li>
+                        <li><a href="/blogs" className={location.pathname==="/blogs" ? "active" : ""}>Blogs</a></li>
                         <li><a href="/about-us" className={location.pathname==="/about-us" ? "active" : ""}>About</a></li>
                         <li><a href="/contact-us" className={location.pathname==="/contact-us" ? "active" : ""}>Contact Us</a></li>
                     </ul>
