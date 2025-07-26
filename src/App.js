@@ -34,10 +34,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    ReactGA.initialize([
-      { trackingId: 'G-BVBNTG86SV' },
-      { trackingId: 'GT-WPQPFZ9' }
-    ]);
+    ReactGA.initialize(['G-BVBNTG86SV', 'GT-WPQPFZ9']);
   }, []);
 
   useEffect(() => {
