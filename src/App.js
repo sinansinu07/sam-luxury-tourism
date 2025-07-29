@@ -24,22 +24,36 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { BlogProvider } from './Context/BlogContext';
 import SingleBlog from './Pages/SingleBlog';
 import BlogListPage from './Pages/BlogList';
-import ReactGA from 'react-ga4';
 
 // New Commit
 
 function App() {
- 
   const dispatch = useDispatch()
   const location = useLocation();
-
+  // Inject GA script once
   useEffect(() => {
-    ReactGA.initialize(['G-BVBNTG86SV', 'GT-WPQPFZ9']);
+    const script1 = document.createElement('script');
+    script1.setAttribute('async', '');
+    script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-BVBNTG86SV';
+    document.head.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BVBNTG86SV');
+    `;
+    document.head.appendChild(script2);
   }, []);
 
+  // Track route changes
   useEffect(() => {
-    ReactGA.send({ hitType: 'pageview', page: location.pathname });
-    console.log('GA tracked:', location.pathname);
+    if (window.gtag) {
+      window.gtag('config', 'G-BVBNTG86SV', {
+        page_path: location.pathname,
+      });
+    }
   }, [location]);
 
   const customerDetails = useSelector((state) => state.customer.data); // Assuming Redux state
